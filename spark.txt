@@ -1,0 +1,54 @@
+# FRAMEWORK - APACHE SPARK
+
+## O que é
+Engine/motor desenvolvido e projetado para processamento de dados em larga escala,
+utilizando processamento distribuído para cargas de Big Data.
+
+- Desenvolvido em Scala (JVM)
+- Surgiu em 2009 como projeto de pós-graduação
+- Trabalha com dados estruturados e não estruturados
+- Utilizado para análise/processamento de Big Data e IA
+
+---
+
+## Diferenciais
+
+1. Processamento em memória (cache)
+2. Memory-heavy nodes — nós com muita memória disponível
+3. Processamento em cluster — várias máquinas processando simultaneamente
+4. Suporte a múltiplas cargas de trabalho (IA, análise, streaming...)
+
+---
+
+## Estrutura do Spark
+
+| Componente  | Descrição                                                                          |
+|-------------|------------------------------------------------------------------------------------|
+| Core        | Núcleo da plataforma: gerência de memória, recuperação de falhas, interação com armazenamento e monitoramento de jobs |
+| SQL         | Mecanismo de consulta distribuído para trabalhar com dados em larga escala         |
+| Streaming   | Análise em tempo real                                                              |
+| MLlib       | Biblioteca para aprendizado de máquina (IA)                                        |
+| GraphX      | Grafos e computação paralela                                                       |
+
+---
+
+## Modos de Implantação
+
+### 1. Standalone
+- Servidor único — tudo instalado em uma só máquina
+- Vantagens: simplicidade e facilidade de gerenciamento
+- Desvantagens: escalabilidade limitada, recursos restritos à própria máquina
+- Uso recomendado: desenvolvimento e testes
+
+### 2. Cluster
+- Conjunto de vários servidores trabalhando como uma unidade
+- Vantagens: alta disponibilidade, gerenciamento centralizado, escalabilidade avançada, recursos compartilhados
+- Permite adicionar ou remover máquinas dinamicamente
+
+---
+
+## Ecossistema Relacionado
+
+### Apache Hadoop
+- **HDFS**: sistema de armazenamento em disco distribuído
+  - Pode ser utilizado pelo Spark como fonte de consumo de dados
