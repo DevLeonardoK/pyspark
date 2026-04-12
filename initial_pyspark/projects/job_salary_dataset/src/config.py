@@ -1,6 +1,9 @@
 #Pyspark
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #Pydantic
 from pydantic_settings import BaseSettings,SettingsConfigDict
@@ -9,7 +12,7 @@ from pydantic import SecretStr, Field
 #Min/Max salary
 
 min_salary = 1000
-max_salary = 10000
+max_salary = 200000
 
 #Spark create
 spark = SparkSession.builder.master("local[*]").appName("spark_project_job_salary").getOrCreate()
