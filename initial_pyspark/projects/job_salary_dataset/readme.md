@@ -1,4 +1,4 @@
-# Job Salary Dataset — ETL Pipeline -1 -1
+# Job Salary Dataset — ETL Pipeline
 
 ETL pipeline built with **PySpark**, **Pydantic**, and **SQLAlchemy** to process a dataset of 250,000 job salary records.
 
