@@ -49,3 +49,9 @@ spark = SparkSession.builder \
     .appName("meu-estudo") \
     .getOrCreate()
 ```
+
+
+
+---parte nova
+RDD (Resilient Distributed Dataset) - Semelhante ao dataframe, maneira antiga e pouca otimização
+o .display - somente no databricks
