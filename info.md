@@ -52,6 +52,24 @@ spark = SparkSession.builder \
 
 
 
----parte nova
-RDD (Resilient Distributed Dataset) - Semelhante ao dataframe, maneira antiga e pouca otimização
-o .display - somente no databricks
+# RDD
+Resilient Distributed Dataset — estrutura de dados mais antiga do Spark, com menos otimizações que o DataFrame. Pouco usado atualmente.
+
+- **`.display()`** — disponível somente no Databricks
+
+# DataFrames
+Estrutura principal do PySpark. São imutáveis — cada transformação gera um novo DataFrame.
+
+- **`withColumn(nome, valor)`** — adiciona ou substitui uma coluna
+
+```python
+df = df.withColumn("Idade - Mais 5 anos", col("Idade") + 5)
+```
+
+# Transformações x Ações
+Duas categorias de operações no PySpark:
+
+- **Transformações** — criam um novo DataFrame a partir de outro (`filter`, `select`, `withColumn`). Não executam imediatamente (lazy evaluation).
+- **Ações** — disparam a execução de todas as transformações acumuladas e retornam um resultado (`show`, `count`, `collect`).
+
+> O Spark não é otimizado para CSV — leitura lenta e cara em nuvem.
