@@ -73,3 +73,36 @@ Duas categorias de operações no PySpark:
 - **Ações** — disparam a execução de todas as transformações acumuladas e retornam um resultado (`show`, `count`, `collect`).
 
 > O Spark não é otimizado para CSV — leitura lenta e cara em nuvem.
+
+# Leitura de arquivos
+
+## CSV
+
+```python
+df = spark.read.csv(path, header=True, inferSchema=True)
+```
+
+- **`header=True`** — detecta o cabeçalho automaticamente
+- **`inferSchema=True`** — detecta os tipos de dados automaticamente
+- É possível definir um schema manualmente via `StructType` para maior controle e performance
+
+## Parquet
+
+Formato colunar otimizado para nuvem — leitura rápida, compressão eficiente e amplamente suportado.
+
+```python
+df = spark.read.parquet(path)
+df.write.parquet(path)
+```
+
+# Modos de escrita
+
+| Modo | Comportamento |
+|------|---------------|
+| `append` | Adiciona os dados ao arquivo/diretório existente |
+| `overwrite` | Reescreve tudo, substituindo os dados anteriores |
+
+```python
+df.write.mode("append").parquet(path)
+df.write.mode("overwrite").parquet(path)
+```
