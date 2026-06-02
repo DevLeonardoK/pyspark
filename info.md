@@ -106,3 +106,56 @@ df.write.parquet(path)
 df.write.mode("append").parquet(path)
 df.write.mode("overwrite").parquet(path)
 ```
+
+
+agg()
+
+Utilizado para chamar uma ou mais funções de agregação após um groupBy().
+
+df.groupBy("Departamento").agg(
+    F.sum("Salário"),
+    F.avg("Salário"),
+    F.max("Salário")
+)
+
+Principais funções de agregação:
+
+F.sum() → Soma
+F.avg() → Média
+F.count() → Contagem
+F.max() → Maior valor
+F.min() → Menor valor
+alias()
+
+Utilizado para renomear uma coluna resultante.
+
+⚠️ Deve ser aplicado na coluna e não no DataFrame.
+
+Correto:
+
+df.groupBy("Departamento").agg(
+    F.sum("Salário").alias("salario_total")
+)
+
+Incorreto:
+
+df.groupBy("Departamento").agg(
+    F.sum("Salário")
+).alias("salario_total")
+asc() e desc()
+
+Utilizados para definir a ordenação da coluna.
+
+Recomendado aplicar diretamente na coluna:
+
+df.orderBy(F.col("Salário").asc())
+df.orderBy(F.col("Salário").desc())
+
+Também funciona:
+
+df.orderBy(F.col("Salário"), ascending=False)
+
+Mas para manter consistência e clareza, prefira:
+
+F.col("Salário").asc()
+F.col("Salário").desc()
