@@ -1,0 +1,21 @@
+id,cliente_id,produto,categoria,quantidade,valor_unitario,valor_total,data,status
+1,1,Notebook,Eletrônicos,3,3500.00,10500.00,2024-01-10,Entregue
+2,2,Mouse,Periféricos,1,120.00,120.00,2024-01-12,Entregue
+3,1,Monitor,Eletrônicos,5,1800.00,9000.00,2024-01-20,Entregue
+4,3,SSD,Armazenamento,10,450.00,4500.00,2024-01-25,Entregue
+5,4,Teclado,Periféricos,2,250.00,500.00,2024-02-03,Entregue
+6,5,Notebook,Eletrônicos,8,4200.00,33600.00,2024-02-10,Entregue
+7,2,Headset,Periféricos,1,350.00,350.00,2024-02-14,Entregue
+8,6,Webcam,Periféricos,3,280.00,840.00,2024-02-18,Entregue
+9,7,Monitor,Eletrônicos,4,2100.00,8400.00,2024-02-25,Entregue
+10,3,HD Externo,Armazenamento,6,320.00,1920.00,2024-03-01,Entregue
+11,8,Mouse,Periféricos,2,130.00,260.00,2024-03-05,Entregue
+12,9,SSD,Armazenamento,15,480.00,7200.00,2024-03-10,Entregue
+13,1,Headset,Periféricos,2,380.00,760.00,2024-03-15,Em trânsito
+14,5,Notebook,Eletrônicos,2,3800.00,7600.00,2024-03-20,Em trânsito
+15,10,Teclado,Periféricos,4,270.00,1080.00,2024-03-22,Pendente
+16,4,Monitor,Eletrônicos,1,1950.00,1950.00,2024-03-25,Pendente
+17,7,SSD,Armazenamento,3,500.00,1500.00,2024-03-28,Pendente
+18,6,Notebook,Eletrônicos,1,4500.00,4500.00,2024-03-30,Pendente
+19,2,HD Externo,Armazenamento,2,310.00,620.00,2024-03-31,Pendente
+20,9,Mouse,Periféricos,5,140.00,700.00,2024-03-31,Pendente

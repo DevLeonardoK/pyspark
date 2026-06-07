@@ -1,0 +1,16 @@
+id,nome,departamento,cargo,salario,data_contratacao,cidade
+1,Ana Souza,Engenharia,Engenheira de Dados,12000.00,2021-03-15,São Paulo
+2,Bruno Lima,Engenharia,Analista de Dados,8500.00,2022-01-10,Porto Alegre
+3,Carlos Melo,Vendas,Gerente de Vendas,9000.00,2020-07-20,Curitiba
+4,Diana Rocha,Engenharia,Engenheira de Dados,13500.00,2019-11-05,São Paulo
+5,Eduardo Costa,RH,Analista de RH,6000.00,2023-02-28,Rio de Janeiro
+6,Fernanda Alves,Vendas,Vendedora,5500.00,2022-08-14,Belo Horizonte
+7,Gabriel Santos,Engenharia,Cientista de Dados,14000.00,2021-06-01,São Paulo
+8,Helena Ferreira,RH,Gerente de RH,10000.00,2018-09-30,Porto Alegre
+9,Igor Pinto,Vendas,Vendedor,5200.00,2023-05-17,Curitiba
+10,Julia Neves,Engenharia,Analista de Dados,8800.00,2022-11-03,São Paulo
+11,Klaus Barros,Financeiro,Analista Financeiro,7500.00,2021-04-22,Rio de Janeiro
+12,Laura Dias,Engenharia,Engenheira de Dados,12500.00,2020-02-14,São Paulo
+13,Marcos Ribeiro,Financeiro,Gerente Financeiro,11000.00,2019-08-08,Belo Horizonte
+14,Natalia Gomes,Vendas,Vendedora,5800.00,2023-01-09,Porto Alegre
+15,Otavio Mendes,Engenharia,Cientista de Dados,15000.00,2020-12-01,São Paulo

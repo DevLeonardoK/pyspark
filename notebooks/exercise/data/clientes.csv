@@ -1,0 +1,11 @@
+id,nome,email,cidade,estado,pais,segmento,data_cadastro
+1,Tech Solutions Ltda,contato@techsolutions.com,São Paulo,SP,Brasil,Empresa,2022-01-15
+2,Maria Oliveira,maria.oliveira@gmail.com,Rio de Janeiro,RJ,Brasil,Pessoa Física,2022-03-20
+3,Inovação Digital SA,vendas@inovacaodigital.com,Curitiba,PR,Brasil,Empresa,2021-11-08
+4,João Pereira,joao.pereira@hotmail.com,Porto Alegre,RS,Brasil,Pessoa Física,2023-02-14
+5,Data Corp Brasil,ti@datacorp.com.br,São Paulo,SP,Brasil,Empresa,2020-07-30
+6,Carla Mendes,carla.mendes@gmail.com,Belo Horizonte,MG,Brasil,Pessoa Física,2022-09-11
+7,Startup Hub,hello@startuphub.io,São Paulo,SP,Brasil,Empresa,2023-04-05
+8,Pedro Alves,pedro.alves@yahoo.com,Florianópolis,SC,Brasil,Pessoa Física,2021-06-22
+9,Conecta Sistemas,suporte@conecta.com,Recife,PE,Brasil,Empresa,2022-12-01
+10,Lucia Ferreira,lucia.ferreira@gmail.com,Manaus,AM,Brasil,Pessoa Física,2023-07-18

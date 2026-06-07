@@ -1,0 +1,31 @@
+data,produto,categoria,valor,quantidade,regiao,vendedor
+2024-01-05,Notebook,Eletrônicos,3500.00,2,Sul,Carlos
+2024-01-08,Mouse,Periféricos,120.00,5,Sudeste,Ana
+2024-01-10,Teclado,Periféricos,250.00,3,Sul,Carlos
+2024-01-12,Monitor,Eletrônicos,1800.00,1,Norte,Bruno
+2024-01-15,Notebook,Eletrônicos,3500.00,1,Sudeste,Ana
+2024-01-18,Headset,Periféricos,350.00,4,Sul,Carlos
+2024-01-20,Webcam,Periféricos,280.00,2,Nordeste,Diana
+2024-01-22,SSD,Armazenamento,450.00,3,Sudeste,Ana
+2024-01-25,HD Externo,Armazenamento,320.00,2,Sul,Carlos
+2024-01-28,Notebook,Eletrônicos,4200.00,1,Norte,Bruno
+2024-02-02,Mouse,Periféricos,130.00,6,Sul,Carlos
+2024-02-05,Monitor,Eletrônicos,2100.00,2,Sudeste,Ana
+2024-02-08,Teclado,Periféricos,270.00,4,Norte,Bruno
+2024-02-10,SSD,Armazenamento,480.00,5,Sudeste,Ana
+2024-02-14,Webcam,Periféricos,300.00,1,Sul,Carlos
+2024-02-18,Headset,Periféricos,380.00,3,Nordeste,Diana
+2024-02-20,Notebook,Eletrônicos,3800.00,2,Sudeste,Ana
+2024-02-22,HD Externo,Armazenamento,310.00,4,Sul,Carlos
+2024-02-25,Monitor,Eletrônicos,1950.00,1,Norte,Bruno
+2024-02-28,Mouse,Periféricos,115.00,8,Nordeste,Diana
+2024-03-03,Notebook,Eletrônicos,4500.00,3,Sul,Carlos
+2024-03-06,SSD,Armazenamento,500.00,2,Sudeste,Ana
+2024-03-10,Teclado,Periféricos,290.00,5,Norte,Bruno
+2024-03-14,Headset,Periféricos,400.00,2,Sul,Carlos
+2024-03-18,Monitor,Eletrônicos,2200.00,1,Sudeste,Ana
+2024-03-20,Mouse,Periféricos,140.00,7,Norte,Bruno
+2024-03-25,Webcam,Periféricos,320.00,3,Nordeste,Diana
+2024-03-28,HD Externo,Armazenamento,350.00,2,Sul,Carlos
+2024-03-30,Notebook,Eletrônicos,3900.00,1,Sudeste,Ana
+2024-03-31,SSD,Armazenamento,460.00,4,Norte,Bruno
